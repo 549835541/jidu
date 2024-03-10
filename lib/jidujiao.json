@@ -1,128 +1,169 @@
-[
-  {
-    "name": "推薦",
-    "list": [
-      {
-        "url": "https://i.imgs.ovh/2023/10/19/2mfxN.jpeg",
-        "icon": "https://i.imgs.ovh/2023/10/19/2mfxN.jpeg"
-      }
-    ]
-  },
-  {
-    "name": "正式版",
-    "list": [
-      {
-        "name": "電視-java",
-        "url": "https://fm.caioa.link/main/apk/release/leanback-java-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v7a"
-      },
-      {
-        "name": "電視-java",
-        "url": "https://fm.caioa.link/main/apk/release/leanback-java-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v8a"
-      },
-      {
-        "name": "電視-py",
-        "url": "https://fm.caioa.link/main/apk/release/leanback-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v7a"
-      },
-      {
-        "name": "電視-py",
-        "url": "https://fm.caioa.link/main/apk/release/leanback-python-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v8a"
-      },
-      {
-        "name": "手機-java",
-        "url": "https://fm.caioa.link/main/apk/release/mobile-java-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v7a"
-      },
-      {
-        "name": "手機-java",
-        "url": "https://fm.caioa.link/main/apk/release/mobile-java-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v8a"
-      },
-      {
-        "name": "手機-py",
-        "url": "https://fm.caioa.link/main/apk/release/mobile-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v7a"
-      },
-      {
-        "name": "手機-py",
-        "url": "https://fm.caioa.link/main/apk/release/mobile-python-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v8a"
-      }
-    ]
-  },
-  {
-    "name": "內測版",
-    "list": [
-      {
-        "name": "電視-java",
-        "url": "https://fm.caioa.link/main/apk/dev/leanback-java-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v7a"
-      },
-      {
-        "name": "電視-java",
-        "url": "https://fm.caioa.link/main/apk/dev/leanback-java-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v8a"
-      },
-      {
-        "name": "電視-py",
-        "url": "https://fm.caioa.link/main/apk/dev/leanback-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v7a"
-      },
-      {
-        "name": "電視-py",
-        "url": "https://fm.caioa.link/main/apk/dev/leanback-python-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v8a"
-      },
-      {
-        "name": "手機-java",
-        "url": "https://fm.caioa.link/main/apk/dev/mobile-java-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v7a"
-      },
-      {
-        "name": "手機-java",
-        "url": "https://fm.caioa.link/main/apk/dev/mobile-java-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v8a"
-      },
-      {
-        "name": "手機-py",
-        "url": "https://fm.caioa.link/main/apk/dev/mobile-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v7a"
-      },
-      {
-        "name": "手機-py",
-        "url": "https://fm.caioa.link/main/apk/dev/mobile-python-arm64_v8a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v8a"
-      }
-    ]
-  },
-  {
-    "name": "4.x版",
-    "list": [
-      {
-        "name": "電視",
-        "url": "https://fm.caioa.link/main/apk/kitkat/leanback.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v7a"
-      }
-    ]
-  }
-]
+{
+
+"规则名": "福音影院",
+
+"规则作者": "...",
+
+"请求头参数": "手机",
+
+"网页编码格式": "gb2312",
+
+"图片是否需要代理": "0",
+
+"是否开启手动嗅探": "0",
+
+"手动嗅探视频链接关键词": ".mp4#.m3u8#.flv",
+
+"手动嗅探视频链接过滤词": ".html#=http",
+
+"链接是否直接播放": "0",
+
+"直接播放链接加前缀": "",
+
+"直接播放链接加后缀": "#isVideo=true#",
+
+"直接播放直链视频请求头": "",
+
+    
+"是否开启获取首页数据": "1",
+
+"首页推荐链接": "http://31737.org/index/index.htm",
+
+"首页列表数组规则": "body&&.d_1_2:has(ul)",
+
+"首页片单列表数组规则": "li",
+
+"首页片单是否Jsoup写法": "1",
+
+"首页片单标题": "a&&Text",
+
+"首页片单图片": "http://111.2.87.200:9277/thumb.jpg",
+  
+"首页片单副标题":"",
+  
+"首页片单链接": "",
+   
+"首页片单链接加前缀": "",
+   
+"首页片单链接加后缀": "",
+
+
+"分类起始页码": "1",
+
+"分类链接": "http://31737.org/mlist/{cateId}_{catePg}.html",
+
+"分类名称": "初信&福音证道&福音电影&赞美&家庭&儿童&纪录片&福音见证&主日学&神学&诗歌&特会&精读圣经&程蒙恩",
+
+"分类名称替换词": "16&17&18&19&21&22&23&24&26&28&29&31&32&33",
+
+
+"分类截取模式": "1",
+
+"分类Json数据二次截取":"",
+
+"分类列表数组规则": "body&&.d_6",
+
+"分类片单是否Jsoup写法": "1",
+
+"分类片单标题": ".l_film_4&&Text",
+
+"分类片单图片": "img&&src",
+
+"分类片单副标题": "li,4&&Text!更新日期：",
+
+"分类片单链接": "a&&href[替换:..=>]",
+
+"分类片单链接加前缀": "http://31737.org",
+
+"分类片单链接加后缀": "",
+
+    
+"线路列表数组规则": "ul:has(b)&&li[style^=clear]",
+
+"线路标题": "'👶'+Text",
+
+
+"播放列表数组规则": "body&&ul:has(b)",
+
+"选集列表数组规则": "a",
+
+"选集标题链接是否Jsoup写法": "1",
+
+"选集标题": "Text",
+
+"选集链接": "href[替换:..=>]",
+
+"是否反转选集序列": "0",
+
+"选集链接加前缀": "http://31737.org",
+
+"选集链接加后缀": "",
+
+"分析MacPlayer": "2",
+
+   
+"详情是否Jsoup写法": "0",
+
+"类型详情": "类别：&&</li>",
+
+"年代详情": "更新时间：&&-",
+
+"地区详情": "更新时间：&&</li>",
+
+"演员详情": "视频长度约：&&</li>",
+
+"简介详情": "简介</li>&&<span id",
+
+
+"搜索请求头参数": "User-Agent$手机",
+
+"搜索链接": "http://31737.org/index/search.asp?keyword={wd}&typeid=%C6%AC%C3%FB&page={SearchPg}",
+
+"POST请求数据": "keyword={wd}",
+
+"搜索截取模式": "1",
+
+"搜索列表数组规则": "body&&table[width^=350]",
+
+"搜索片单是否Jsoup写法": "1",
+
+"搜索片单标题": "strong&&Text",
+
+"搜索片单图片": "img,1&&src",
+
+"搜索片单副标题": ".eng_S&&Text",
+
+"搜索片单链接": "a&&href[替换:..=>]",
+
+"搜索片单链接加前缀": "http://31737.org",
+
+"搜索片单链接加后缀": "",
+
+
+"筛选数据": {},
+
+"筛选子分类名称": "",
+
+"筛选子分类替换词": "",
+
+"筛选类型名称": "",
+
+"筛选类型替换词": "*",
+
+"筛选地区名称": "",
+
+"筛选地区替换词": "*",
+
+"筛选年份名称": "",
+
+"筛选年份替换词": "*",
+
+"筛选语言名称": "",
+
+"筛选语言替换词": "*",
+
+"筛选排序名称": "",
+
+"筛选排序替换词": ""
+
+}
